@@ -1,0 +1,27 @@
+.fileView {
+    width: 100%;
+}
+
+.fileView__row {
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.fileView__title {
+    display: flex;
+    margin-bottom: 5px;
+    color: rgb(85, 78, 78);
+}
+
+.fileView__title>div>* {
+    margin: 11px;
+}
+
+.fileView__title--left {
+    flex: 1;
+}
+
+.fileView__title--right {
+    display: flex;
+}
